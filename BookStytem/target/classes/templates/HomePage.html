@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>图书借阅系统</h1>
+新闻分类:<select id="booktype">
+ <option value="">--请选择--</option>
+    <option value="1">小说</option>
+    <option value="2">文学</option>
+    <option value="3">传记</option>
+</select>
+图书名称:<input type="text" id="bookatuthor"/>
+是否借阅:<select id="isborrow">
+ <option value="">--请选择--</option>
+ <option value="1">已借阅</option>
+    <option value="0">未借阅</option>
+</select>
+
+<button id="sel">查询</button>
+当前:<span th:text="${session.usercode}"></span>
+<a href="javascript:void(0)" id="t">退出</a>
+	<table border="1">
+		<tr>
+		  <td>图书编号</td>
+		  <td>图书分类</td>
+		  <td>图书名称</td>
+		  <td>作者</td>
+		  <td>出版社</td>
+		  <td>操作</td>
+		</tr>
+	</table>
+	<div id="page"></div>
+</body>
+<script type="text/javascript" src="/js/jquery-1.12.4.js"></script>
+<script type="text/javascript" src="/js/HomePage.js"></script>
+</html>

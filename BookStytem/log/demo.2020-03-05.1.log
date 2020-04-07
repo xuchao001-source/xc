@@ -1,0 +1,10 @@
+2020-03-05 17:37:08,414 INFO (StartupInfoLogger.java:59)- Started APP in 3.252 seconds (JVM running for 159.67)
+2020-03-05 17:37:17,224 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select * from users where usercode=? and password=? 
+2020-03-05 17:37:17,269 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1234567(String), 123456(String)
+2020-03-05 17:37:17,329 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-05 17:38:22,754 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select * from users where usercode=? and password=? 
+2020-03-05 17:38:22,755 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1234567(String), 123452(String)
+2020-03-05 17:38:22,757 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-03-05 17:41:21,723 INFO (StartupInfoLogger.java:50)- Starting APP on 徐超的计算机 with PID 13544 (D:\SpringBoot-Demo\BookStytem\target\classes started by XuChao in D:\SpringBoot-Demo\BookStytem)
+2020-03-05 17:41:21,724 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-03-05 17:41:21,724 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default

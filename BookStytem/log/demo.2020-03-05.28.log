@@ -1,0 +1,13 @@
+2020-03-05 18:20:01,339 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(0) FROM bookinfo WHERE 1 = 1 
+2020-03-05 18:20:01,346 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-03-05 18:20:01,349 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-05 18:20:01,351 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select * from bookinfo where 1=1 LIMIT ? 
+2020-03-05 18:20:01,352 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 3(Integer)
+2020-03-05 18:20:01,354 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2020-03-05 18:23:03,420 INFO (StartupInfoLogger.java:50)- Starting APP on 徐超的计算机 with PID 13544 (D:\SpringBoot-Demo\BookStytem\target\classes started by XuChao in D:\SpringBoot-Demo\BookStytem)
+2020-03-05 18:23:03,421 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-03-05 18:23:03,422 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2020-03-05 18:23:05,083 INFO (StartupInfoLogger.java:59)- Started APP in 1.735 seconds (JVM running for 2916.339)
+2020-03-05 18:25:20,755 INFO (StartupInfoLogger.java:50)- Starting APP on 徐超的计算机 with PID 13544 (D:\SpringBoot-Demo\BookStytem\target\classes started by XuChao in D:\SpringBoot-Demo\BookStytem)
+2020-03-05 18:25:20,757 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-03-05 18:25:20,758 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default

@@ -1,0 +1,8 @@
+2020-03-05 17:44:08,723 INFO (StartupInfoLogger.java:59)- Started APP in 1.291 seconds (JVM running for 579.978)
+2020-03-05 17:44:17,496 INFO (StartupInfoLogger.java:50)- Starting APP on 徐超的计算机 with PID 13544 (D:\SpringBoot-Demo\BookStytem\target\classes started by XuChao in D:\SpringBoot-Demo\BookStytem)
+2020-03-05 17:44:17,496 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-03-05 17:44:17,497 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2020-03-05 17:44:18,435 INFO (StartupInfoLogger.java:59)- Started APP in 1.014 seconds (JVM running for 589.692)
+2020-03-05 17:45:07,676 INFO (StartupInfoLogger.java:50)- Starting APP on 徐超的计算机 with PID 13544 (D:\SpringBoot-Demo\BookStytem\target\classes started by XuChao in D:\SpringBoot-Demo\BookStytem)
+2020-03-05 17:45:07,677 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-03-05 17:45:07,679 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default

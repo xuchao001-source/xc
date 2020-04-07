@@ -1,0 +1,12 @@
+2020-03-05 18:27:41,713 INFO (StartupInfoLogger.java:59)- Started APP in 1.211 seconds (JVM running for 3192.97)
+2020-03-05 18:28:02,749 INFO (StartupInfoLogger.java:50)- Starting APP on 徐超的计算机 with PID 13544 (D:\SpringBoot-Demo\BookStytem\target\classes started by XuChao in D:\SpringBoot-Demo\BookStytem)
+2020-03-05 18:28:02,750 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-03-05 18:28:02,750 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2020-03-05 18:28:03,577 INFO (StartupInfoLogger.java:59)- Started APP in 0.884 seconds (JVM running for 3214.833)
+2020-03-05 18:28:36,594 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(0) FROM bookinfo WHERE 1 = 1 
+2020-03-05 18:28:36,597 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-03-05 18:28:36,603 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-05 18:28:36,605 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select * from bookinfo where 1=1 LIMIT ? 
+2020-03-05 18:28:36,606 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 3(Integer)
+2020-03-05 18:28:36,608 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2020-03-05 18:28:36,827 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(0) FROM bookinfo WHERE 1 = 1 

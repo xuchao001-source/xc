@@ -1,0 +1,12 @@
+2020-03-05 18:13:32,230 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(0) FROM bookinfo WHERE 1 = 1 
+2020-03-05 18:13:32,238 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-03-05 18:13:32,240 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-05 18:13:32,242 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select * from bookinfo where 1=1 LIMIT ?, ? 
+2020-03-05 18:13:32,243 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 3(Integer), 3(Integer)
+2020-03-05 18:13:32,245 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-05 18:13:34,358 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(0) FROM bookinfo WHERE 1 = 1 
+2020-03-05 18:13:34,359 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-03-05 18:13:34,361 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-05 18:13:34,363 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select * from bookinfo where 1=1 LIMIT ? 
+2020-03-05 18:13:34,364 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 3(Integer)
+2020-03-05 18:13:34,367 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3

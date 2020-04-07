@@ -1,0 +1,9 @@
+2020-03-05 18:17:54,755 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select * from bookinfo where 1=1 LIMIT ? 
+2020-03-05 18:17:54,762 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 3(Integer)
+2020-03-05 18:17:54,766 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2020-03-05 18:18:01,175 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(0) FROM bookinfo WHERE 1 = 1 AND bookname LIKE concat('%', ?, '%') 
+2020-03-05 18:18:01,176 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 徐某(String)
+2020-03-05 18:18:01,177 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-05 18:18:39,396 INFO (StartupInfoLogger.java:50)- Starting APP on 徐超的计算机 with PID 13544 (D:\SpringBoot-Demo\BookStytem\target\classes started by XuChao in D:\SpringBoot-Demo\BookStytem)
+2020-03-05 18:18:39,398 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-03-05 18:18:39,398 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default

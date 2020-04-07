@@ -1,0 +1,12 @@
+2020-03-05 18:17:42,397 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(0) FROM bookinfo WHERE 1 = 1 
+2020-03-05 18:17:42,404 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-03-05 18:17:42,405 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-05 18:17:42,407 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select * from bookinfo where 1=1 LIMIT ? 
+2020-03-05 18:17:42,408 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 3(Integer)
+2020-03-05 18:17:42,410 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2020-03-05 18:17:50,842 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(0) FROM bookinfo WHERE 1 = 1 AND bookname LIKE concat('%', ?, '%') 
+2020-03-05 18:17:50,844 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 徐(String)
+2020-03-05 18:17:50,850 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-05 18:17:54,751 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(0) FROM bookinfo WHERE 1 = 1 
+2020-03-05 18:17:54,752 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-03-05 18:17:54,754 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1

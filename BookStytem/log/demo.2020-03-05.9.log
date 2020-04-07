@@ -1,0 +1,24 @@
+2020-03-05 18:10:06,550 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-03-05 18:10:06,567 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-03-05 18:10:07,098 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(0) FROM bookinfo WHERE 1 = 1 
+2020-03-05 18:10:07,099 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-03-05 18:10:07,101 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-05 18:10:07,103 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select * from bookinfo where 1=1 LIMIT ? 
+2020-03-05 18:10:07,104 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select * from bookinfo 
+2020-03-05 18:10:07,104 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 3(Integer)
+2020-03-05 18:10:07,105 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-03-05 18:10:07,128 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-03-05 18:10:07,115 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-03-05 18:10:07,152 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select * from bookinfo 
+2020-03-05 18:10:07,154 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-03-05 18:10:07,160 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-03-05 18:10:07,310 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(0) FROM bookinfo WHERE 1 = 1 
+2020-03-05 18:10:07,313 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-03-05 18:10:07,315 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-05 18:10:07,317 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select * from bookinfo where 1=1 LIMIT ? 
+2020-03-05 18:10:07,318 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 3(Integer)
+2020-03-05 18:10:07,328 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-03-05 18:10:07,345 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select * from bookinfo 
+2020-03-05 18:10:07,348 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-03-05 18:10:07,354 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-03-05 18:10:07,365 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select * from bookinfo 
